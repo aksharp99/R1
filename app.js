@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 function Person() {
   return (
     <div class="person">
@@ -8,3 +11,4 @@ function Person() {
 }
 
 ReactDOM.render(<Person/>, document.querySelector('#p1'));
+//ReactDOM.render(<Person />, document.getElementById('#p1'))
