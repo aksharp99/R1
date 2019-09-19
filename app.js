@@ -6,3 +6,5 @@ function Person() {
     </div>
   );
 }
+
+ReactDOM.render(<Person />, document.querySelector('#p1'));
