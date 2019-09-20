@@ -16,5 +16,5 @@ var app = (
   </div>
 );
 
-ReactDOM.render(<Person name="Yolanda" age="35" />, document.querySelector('#p1'));
+ReactDOM.render(app, document.querySelector('#app'));
 //ReactDOM.render(<Person />, document.getElementById('#p1'))
